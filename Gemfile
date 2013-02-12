@@ -31,3 +31,4 @@ gem 'mongodb',	'~> 2.0.0'
 gem 'bson_ext'
 
 gem 'slim'
+gem 'twitter-bootstrapped'

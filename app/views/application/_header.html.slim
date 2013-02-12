@@ -1,0 +1,15 @@
+.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      a.btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse"
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+
+      = link_to "Scholar", root_url, class: "brand"
+
+      .nav-collapse
+        ul.nav
+          li.active= link_to "Home", "#"
+          li= link_to "About", "#about"
+          li= link_to "Contact", "#contact"
