@@ -6,10 +6,10 @@ class Spinach::Features::StudentsList < Spinach::FeatureSteps
   end
 
   step 'I go to the students list page' do
-    pending 'step not implemented'
+    visit students_path
   end
 
   step 'I should see students list' do
-    pending 'step not implemented'
+    assert page.has_selector?("ul#students_list")
   end
 end

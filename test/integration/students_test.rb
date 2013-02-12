@@ -7,8 +7,8 @@ describe "Students Integration Test" do
   end
   
   it "should listing students successfuly" do
-    Fabricate.build(:Student) do
-      students { 10.times { Fabricate(:Student) } }
+    Fabricate.build(:student) do
+      students { 10.times { Fabricate(:student) } }
     end
     path.must_equal students_path
   end
