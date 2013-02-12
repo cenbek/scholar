@@ -1,12 +1,12 @@
 require "minitest_helper"
 
 describe StudentsController do
-  it "should get index" do
-    get :index
+  it "should get new" do
+    get :new
     assert_response :success
   end
-=begin
- it "should get edit" do
+
+  it "should get edit" do
     get :edit
     assert_response :success
   end
@@ -16,9 +16,9 @@ describe StudentsController do
     assert_response :success
   end
 
-  it "should get new" do
-    get :new
+  it "should get index" do
+    get :index
     assert_response :success
   end
-=end
+
 end

@@ -1,5 +1,13 @@
 Scholar::Application.routes.draw do
 
+  get "students/new"
+
+  get "students/edit"
+
+  get "students/show"
+
+  get "students/index"
+
   resources :students
   # The priority is based upon order of creation:
   # first created -> highest priority.
