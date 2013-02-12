@@ -1,2 +1,6 @@
 h1 Students#index
 p Find me in app/views/students/index.html.slim
+ul id="students_list"
+  - @students.each do |std|
+    li
+      =std.surname
