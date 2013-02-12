@@ -1,4 +1,4 @@
-
+//= require twitter-bootstrap
 // Remove the bang to load the responsive css
 //=! require twitter-bootstrap-responsive
 
