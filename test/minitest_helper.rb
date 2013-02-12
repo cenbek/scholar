@@ -3,7 +3,6 @@ require File.expand_path('../../config/environment', __FILE__)
 
 require "minitest/autorun"
 require "minitest/rails"
-require "minitest/rails/capybara"
 require "minitest/pride"
 # Add `gem "minitest/rails/capybara"` to the test group of your Gemfile
 # and uncomment the following if you want Capybara feature tests

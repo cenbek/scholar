@@ -1,0 +1,8 @@
+//= require twitter-bootstrap
+// Remove the bang to load the responsive css
+//=! require twitter-bootstrap-responsive
+
+body {
+  // 60px padding to make the container go all the way to the bottom of the topbar
+  padding-top: 60px;
+}

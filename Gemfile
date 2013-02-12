@@ -20,8 +20,15 @@ group :test do
   gem 'ffaker'
 end
 
-gem "mongoid"
+gem 'mongoid'
 
+gem 'dm-core'
+gem 'dm-aggregates'
+gem 'dm-migrations'
 
+gem 'mongo',	'~> 1.5.0'
+gem 'mongodb',	'~> 2.0.0'
+gem 'bson_ext'
 
-
+gem 'slim'
+gem 'twitter-bootstrapped'
